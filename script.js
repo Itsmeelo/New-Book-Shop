@@ -168,7 +168,10 @@ divContainerOne.appendChild(sectorThreeDiv);
 const getUser = async () => {
     try {
         const users = await fetch('./books.json').then(_ => _.json());
-        console.log(users);
+        //console.log(users);
+        users.array.forEach(user => {
+            console.log(user.first_title);
+        });
 
     } catch (error) {
         console.log(error);
