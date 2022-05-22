@@ -60,6 +60,10 @@ imgCart.setAttribute('height', '40px');
 imgCart.setAttribute('width', '40px');
 cartIconDiv.appendChild(imgCart);
 
+const spaceOne = document.createElement('div');
+spaceOne.classList.add('spaceOne');
+header.appendChild(spaceOne);
+
 const nav = document.createElement('nav');
 header.appendChild(nav);
 
@@ -165,7 +169,7 @@ sectorThreeDiv.classList.add('sectorThreeDiv');
 divContainerOne.appendChild(sectorThreeDiv);
 
 
-const getUser = async () => {
+/*const getUser = async () => {
     try {
         const users = await fetch('./books.json').then(_ => _.json());
         //console.log(users);
@@ -178,7 +182,7 @@ const getUser = async () => {
     }
 }
 
-getUser();
+getUser();*/
 
 
 /*fetch('./books.json') //path to the file with json data
