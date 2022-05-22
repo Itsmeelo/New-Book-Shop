@@ -207,7 +207,7 @@ fetch('./books.json') //path to the file with json data
         return response.json();
     })
     .then(data => {
-        console.log(data);
+        console.log(data.author);
     });
 
 
