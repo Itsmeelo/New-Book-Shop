@@ -195,11 +195,19 @@ divContainerOne.appendChild(sectorThreeDiv);
 getUser();*/
 
 
-fetch('books.json') //path to the file with json data 
+/*fetch('books.json') //path to the file with json data 
     .then(response => response.json())
     .then(data => {
         console.log(data.author);
         document.querySelector('#pOne').innerText = data.author;
+    });*/
+
+fetch('./books.json') //path to the file with json data
+    .then(response => {
+        return response.json();
+    })
+    .then(data => {
+        console.log(data);
     });
 
 
