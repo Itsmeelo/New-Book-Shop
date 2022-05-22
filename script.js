@@ -180,7 +180,7 @@ const getUser = async () => {
         const users = await fetch('books.json').then(_ => _.json());
         //console.log(users);
         users.forEach(user => {
-            console.log(user.author);
+            console.log(user.author[0]);
             //bookOne.appendChild(pOne);
             //console.log(user.first_title)
         });
