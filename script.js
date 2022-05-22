@@ -165,25 +165,26 @@ sectorThreeDiv.classList.add('sectorThreeDiv');
 divContainerOne.appendChild(sectorThreeDiv);
 
 
-/*const getUser = async () => {
+const getUser = async () => {
     try {
-        const user = await fetch('./books.json').then(_ => _.json())
+        const users = await fetch('./books.json').then(_ => _.json());
+        console.log(users);
 
     } catch (error) {
         console.log(error);
     }
 }
 
-getUser();*/
+getUser();
 
 
-fetch('./books.json') //path to the file with json data
+/*fetch('./books.json') //path to the file with json data
     .then(response => {
         return response.json();
     })
     .then(data => {
         console.log(data);
-    });
+    });*/
 
 
 
