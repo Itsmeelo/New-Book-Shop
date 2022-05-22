@@ -201,7 +201,7 @@ getUser();*/
         console.log(data.author);
         document.querySelector('#pOne').innerText = data.author;
     });*/
-//fetch 
+
 fetch('./books.json') //path to the file with json data
     .then(response => {
         return response.json();
