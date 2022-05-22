@@ -175,10 +175,10 @@ const getUser = async () => {
         const users = await fetch('books.json').then(_ => _.json());
         //console.log(users);
         users.forEach(user => {
-            const p = document.createElement('p');
-            p.classList.add('pOne');
-            p.innerText = '${ user.first_title}';
-            bookOne.appendChild(p);
+            const pOne = document.createElement('p');
+            pOne.classList.add('pOne');
+            pOne.innerText = '${ user.first_title}';
+            bookOne.appendChild(pOne);
             //console.log(user.first_title)
         });
 
