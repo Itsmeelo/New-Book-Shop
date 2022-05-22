@@ -174,16 +174,14 @@ sectorThreeDiv.classList.add('sectorThreeDiv');
 divContainerOne.appendChild(sectorThreeDiv);
 
 
-/*const getUser = async () => {
+const getUser = async () => {
     try {
         const bookOne = document.getElementsByClassName('divThreeBookOnetext');
         const users = await fetch('books.json').then(_ => _.json());
         //console.log(users);
         users.forEach(user => {
-            const pOne = document.createElement('p');
-            pOne.classList.add('pOne');
-            pOne.innerHTML = '${user.first_title}';
-            bookOne.appendChild(pOne);
+            console.log(user);
+            //bookOne.appendChild(pOne);
             //console.log(user.first_title)
         });
 
@@ -192,7 +190,7 @@ divContainerOne.appendChild(sectorThreeDiv);
     }
 }
 
-getUser();*/
+getUser();
 
 
 /*fetch('books.json') //path to the file with json data 
@@ -202,13 +200,13 @@ getUser();*/
         document.querySelector('#pOne').innerText = data.author;
     });*/
 
-fetch('./books.json') //path to the file with json data
+/*fetch('books.json') //path to the file with json data
     .then(response => {
         return response.json();
     })
     .then(data => {
         console.log(data.author);
-    });
+    });*/
 
 
 
