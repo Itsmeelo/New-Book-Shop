@@ -170,7 +170,7 @@ const getUser = async () => {
         const users = await fetch('./books.json').then(_ => _.json());
         //console.log(users);
         users.array.forEach(user => {
-            console.log(user.first_title);
+            console.log(user.first_title)
         });
 
     } catch (error) {
