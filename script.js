@@ -177,7 +177,7 @@ const getUser = async () => {
         users.forEach(user => {
             const pOne = document.createElement('p');
             pOne.classList.add('pOne');
-            pOne.innerText = '${ user.first_title}';
+            pOne.innerText = '${user.first_title}';
             bookOne.appendChild(pOne);
             //console.log(user.first_title)
         });
