@@ -169,12 +169,17 @@ sectorThreeDiv.classList.add('sectorThreeDiv');
 divContainerOne.appendChild(sectorThreeDiv);
 
 
-/*const getUser = async () => {
+const getUser = async () => {
     try {
+        const sectorThreeOne = document.getElementsByClassName('sectorThreeDiv');
         const users = await fetch('./books.json').then(_ => _.json());
         //console.log(users);
         users.forEach(user => {
-            console.log(user.first_title)
+            const p = document.createElement('p');
+            p.classList.add(pOne);
+            p.innerText = '${ user.first_title}'
+            sectorThreeOne.appendChild(p)
+            //console.log(user.first_title)
         });
 
     } catch (error) {
@@ -182,7 +187,7 @@ divContainerOne.appendChild(sectorThreeDiv);
     }
 }
 
-getUser();*/
+getUser();
 
 
 /*fetch('./books.json') //path to the file with json data
