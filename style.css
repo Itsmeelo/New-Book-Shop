@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: #242121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hearderContainer {
+    width: 1300px;
+    height: 88.1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*border-style: solid;
+    border-color: crimson;*/
+    margin-bottom: 20px;
+    background-color: #292828;
+}
+
+.logoDiv {
+    height: 88px;
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*border-style: solid;
+    border-color: crimson;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292828;
+
+}
+
+.searchDiv {
+    width: 678px;
+    height: 33px;
+    /*border-style: solid;
+    border-color: crimson;*/
+    background-color: #373737;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.searchIconDiv {
+    width: 26px;
+    height: 26px;
+    /*border-style: solid;
+    border-color: crimson;*/
+}
+
+
+
+.searchDivText {
+    width: 550px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #808080;
+    /*border-style: solid;
+    border-color: crimson;*/
+    background-color: #373737;
+}
+
+.cartIconDiv {
+    width: 50px;
+    height: 50px;
+    /*border-style: solid;
+    border-color: crimson;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292828;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-style: solid;
+    border-color: crimson;*/
+    margin-bottom: 100px;
+}
+
+.navDiv {
+    width: 802px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border-style: solid;
+    border-color: crimson;*/
+}
+
+ul {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-right: 45px;
+    /*text-align: center;*/
+    position: relative;
+
+
+}
+
+.programing {
+    width: 70px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.detective {
+    width: 83px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.love {
+    width: 43px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.novel {
+    width: 51px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.history {
+    width: 64px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.scienceFiction {
+    width: 300px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.more {
+    width: 47px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #415f71;
+    font-size: 22px;
+}
+
+.divContainerOne {
+    width: 1350px;
+    height: 311.03px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid: 20px;
+    border-style: solid;
+    border-color: crimson;
+}
+
+.sectorOneDiv {
+    width: 509px;
+    height: 311.03px;
+    border-style: solid;
+    border-color: crimson;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+.sectorTwoDiv {
+    width: 210px;
+    height: 311.03px;
+    border-style: solid;
+    border-color: crimson;
+}
+
+.sectorThreeDiv {
+    width: 510px;
+    height: 311.03px;
+    border-style: solid;
+    border-color: crimson;
+}
+
+.bookOneImg {
+    width: 202.89px;
+    height: 299.22px;
+    background-image: url(./assats/images/book1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.5)) drop-shadow(5px 0px 0px #FFFFFF) drop-shadow(10px 0px 0px #D8D8D8) drop-shadow(15px 0px 0px #FFFFFF);
+    border-radius: 2px;
+    transform: rotate(-3.5deg);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bookOneImg:hover {
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.bookOneText {
+    width: 489px;
+    height: 272px;
+    /*background: rgba(113, 197, 244, 0.38);
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);*/
+    border-radius: 5px;
+    border-style: solid;
+    border-color: crimson;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.divOneBookOnetext {
+    width: 20px;
+    height: 270px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: crimson;
+}
+
+.divTwoBookOnetext {
+    width: 227.5px;
+    height: 270px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: crimson;
+    background: rgba(113, 197, 244, 0.38);
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.divThreeBookOnetext {
+    width: 247.5px;
+    height: 270px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: crimson;
+    background: rgba(113, 197, 244, 0.38);
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+
+}
