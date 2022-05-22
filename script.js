@@ -176,8 +176,8 @@ const getUser = async () => {
         //console.log(users);
         users.forEach(user => {
             const p = document.createElement('p');
-            p.innerText = '${ user.first_title}'
-            sectorThreeOne.appendChild(p)
+            p.innerText = '${ user.first_title}';
+            sectorThreeOne.appendChild(p);
             //console.log(user.first_title)
         });
 
