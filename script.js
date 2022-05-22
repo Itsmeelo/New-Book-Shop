@@ -192,6 +192,7 @@ const getUser = async () => {
 
 getUser();
 
+//fetch
 
 /*fetch('books.json') //path to the file with json data 
     .then(response => response.json())
