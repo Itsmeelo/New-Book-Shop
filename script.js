@@ -172,14 +172,14 @@ divContainerOne.appendChild(sectorThreeDiv);
 const getUser = async () => {
     try {
         const divOne = document.getElementsByClassName('divThreeBookOnetext');
-        console.log(divOne);
+        //console.log(divOne);
         const users = await fetch('./books.json').then(_ => _.json());
         //console.log(users);
         users.forEach(user => {
             const p = document.createElement('p');
             p.classList.add('pOne');
             p.innerText = '${ user.first_title}';
-            divOne.appendChild(p);
+            //divOne.appendChild(p);
             //console.log(user.first_title)
         });
 
