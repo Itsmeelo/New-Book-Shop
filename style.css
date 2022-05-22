@@ -8,8 +8,8 @@
     height: 100vh;
     background-color: #242121;
     display: flex;
-    justify-content: center;
-    /*align-items: center;*/
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
 
 }
@@ -25,6 +25,7 @@
     border-color: crimson;*/
     margin-bottom: 20px;
     background-color: #292828;
+    margin: auto;
 }
 
 .logoDiv {
@@ -90,13 +91,17 @@
     background-color: #292828;
 }
 
+.spaceOne {
+    height: 20px;
+}
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     /*border-style: solid;
     border-color: crimson;*/
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .navDiv {
