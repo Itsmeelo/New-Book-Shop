@@ -158,7 +158,7 @@ divThreeBookOnetext.classList.add('divThreeBookOnetext');
 bookOneText.appendChild(divThreeBookOnetext);
 
 const pOne = document.createElement('p');
-pOne.classList.add('pOne');
+pOne.setAttribute('ID', 'pOne');
 divThreeBookOnetext.appendChild(pOne);
 
 
@@ -199,7 +199,7 @@ fetch('books.json') //path to the file with json data
     .then(response => response.json())
     .then(data => {
         console.log(data.first_title);
-        document.querySelector('.pOne').innerText = data.first_title
+        document.querySelector('#pOne').innerText = data.first_title;
     });
 
 
