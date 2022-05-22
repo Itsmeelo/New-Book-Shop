@@ -165,7 +165,7 @@ sectorThreeDiv.classList.add('sectorThreeDiv');
 divContainerOne.appendChild(sectorThreeDiv);
 
 
-const getUser = async () => {
+/*const getUser = async () => {
     try {
         const user = await fetch('./books.json').then(_ => _.json())
 
@@ -174,7 +174,7 @@ const getUser = async () => {
     }
 }
 
-getUser();
+getUser();*/
 
 
 fetch('./books.json') //path to the file with json data
