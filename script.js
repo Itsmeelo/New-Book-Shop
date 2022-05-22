@@ -171,7 +171,8 @@ divContainerOne.appendChild(sectorThreeDiv);
 
 const getUser = async () => {
     try {
-        const divOne = document.getElementsByClassName('sectorThreeDiv');
+        const divOne = document.getElementsByClassName('divThreeBookOnetext');
+        console.log(divOne);
         const users = await fetch('./books.json').then(_ => _.json());
         //console.log(users);
         users.forEach(user => {
