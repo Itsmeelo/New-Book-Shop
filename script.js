@@ -169,7 +169,7 @@ sectorThreeDiv.classList.add('sectorThreeDiv');
 divContainerOne.appendChild(sectorThreeDiv);
 
 
-const getUser = async () => {
+/*const getUser = async () => {
     try {
         const divOne = document.getElementsByClassName('divThreeBookOnetext');
         //console.log(divOne);
@@ -179,7 +179,7 @@ const getUser = async () => {
             const p = document.createElement('p');
             p.classList.add('pOne');
             p.innerText = '${ user.first_title}';
-            //divOne.appendChild(p);
+
             //console.log(user.first_title)
         });
 
@@ -188,16 +188,17 @@ const getUser = async () => {
     }
 }
 
-getUser();
+divOne.appendChild(p);
+getUser();*/
 
 
-/*fetch('./books.json') //path to the file with json data
+fetch('./books.json') //path to the file with json data 
     .then(response => {
         return response.json();
     })
     .then(data => {
         console.log(data);
-    });*/
+    });
 
 
 
