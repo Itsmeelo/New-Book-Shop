@@ -198,8 +198,8 @@ getUser();*/
 fetch('books.json') //path to the file with json data 
     .then(response => response.json())
     .then(data => {
-        console.log(data.first_title);
-        document.querySelector('#pOne').innerText = data.first_title;
+        console.log(data.author);
+        document.querySelector('#pOne').innerText = data.author;
     });
 
 
