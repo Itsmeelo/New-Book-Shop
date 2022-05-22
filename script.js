@@ -157,6 +157,11 @@ const divThreeBookOnetext = document.createElement('div');
 divThreeBookOnetext.classList.add('divThreeBookOnetext');
 bookOneText.appendChild(divThreeBookOnetext);
 
+const pOne = document.createElement('p');
+pOne.classList.add('pOne');
+divThreeBookOnetext.appendChild(pOne);
+
+
 sectorOneDiv.appendChild(bookOneImg);
 divContainerOne.appendChild(sectorOneDiv);
 
@@ -169,7 +174,7 @@ sectorThreeDiv.classList.add('sectorThreeDiv');
 divContainerOne.appendChild(sectorThreeDiv);
 
 
-const getUser = async () => {
+/*const getUser = async () => {
     try {
         const bookOne = document.getElementsByClassName('divThreeBookOnetext');
         const users = await fetch('books.json').then(_ => _.json());
@@ -187,16 +192,17 @@ const getUser = async () => {
     }
 }
 
-getUser();
+getUser();*/
 
 
-/*fetch('books.json') //path to the file with json data 
+fetch('books.json') //path to the file with json data 
     .then(response => {
         return response.json();
     })
     .then(data => {
-        console.log(data);
-    });*/
+        console.log(data.first_title);
+        document.querySelector('.pOne').innerText = data.first_title
+    });
 
 
 
